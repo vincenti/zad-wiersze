@@ -29,7 +29,7 @@ sudo mkdir -p /app/symfony2app/vendor
 sudo chmod -R 0777 /app/symfony2app
 sudo chown -R "${WHOAMI}:${WHOAMI}" /app/symfony2app
 
-cd /vagrant
+cd "${BASEDIR}"
 composer install
 
 sudo chmod -R 0777 /app/symfony2app
