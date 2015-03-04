@@ -5,12 +5,12 @@
 # then
 #    exit 1
 
-if [ `facter virtual` == "virtualbox" ];
-then
-    BASEDIR=/vagrant
-elif [ `whoami` == "travis" ];
+if [ `whoami` == "travis" ];
 then
     BASEDIR=`pwd`
+elif [ `facter virtual` == "virtualbox" ];
+then
+    BASEDIR=/vagrant
 else
     echo The command should be executed within the guest OS!
     exit 1

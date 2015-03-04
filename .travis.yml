@@ -36,7 +36,8 @@ install:
 
 # DEBUG
 #  - sudo puppet --version
-#  - sudo facter
+  - facter
+  - sudo facter
 
 
 #  Install Apache & Php & MySQL
