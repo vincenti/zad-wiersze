@@ -129,5 +129,12 @@ class DefaultController extends Controller
      * Z
      */
 
+     /**
+     * @Route("/wiersz-o-chlopcu-polskim.html", name="wiersz-o-chlopcu-polskim")
+     */
+    public function wierszochlopcupolskimAction()
+    {
+        return $this->render('default/wiersz-o-chlopcu-polskim.html.twig');
+    }
 
 }
