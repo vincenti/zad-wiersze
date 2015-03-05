@@ -128,6 +128,14 @@ class DefaultController extends Controller
     /*
      * Z
      */
+    
+    /**
+     * @Route("/dom-marzen.html", name="dom-marzen")
+     */
+    public function dommarzenAction()
+    {
+        return $this->render('default/dom-marzen.html.twig');
+    }
 
 
 }
