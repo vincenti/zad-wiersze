@@ -101,6 +101,16 @@ class DefaultController extends Controller
      * S
      */
 
+
+    /**
+     * @Route("/stepy-akermanskie.html", name="stepy-akermanskie")
+     */
+    public function stepyAkermanskieAction()
+    {
+        return $this->render('default/stepy-akermanskie.html.twig');
+    }
+
+
     /*
      * T
      */
