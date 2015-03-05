@@ -36,6 +36,13 @@ class DefaultController extends Controller
     /*
      * C
      */
+    /**
+ * @Route("/cud.html", name="cud")
+ */
+public function cudAction()
+{
+    return $this->render('default/cud.html.twig');
+}
 
     /*
      * D
