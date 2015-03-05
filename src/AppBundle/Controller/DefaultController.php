@@ -147,5 +147,12 @@ class DefaultController extends Controller
         return $this->render('default/dom-marzen.html.twig');
     }
 
+     /**
+     * @Route("/wiersz-o-chlopcu-polskim.html", name="wiersz-o-chlopcu-polskim")
+     */
+    public function wierszochlopcupolskimAction()
+    {
+        return $this->render('default/wiersz-o-chlopcu-polskim.html.twig');
+    }
 
 }
