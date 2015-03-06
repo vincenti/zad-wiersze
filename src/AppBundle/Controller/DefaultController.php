@@ -24,6 +24,13 @@ class DefaultController extends Controller
         return $this->render('default/pani-twardowska.html.twig');
     }
 
+    /**
+     * @Route("/modlitwa-wieczorna.html", name="modlitwa-wieczorna")
+    */
+    public function modlitwaWieczornaAction()
+    {
+    return $this->render('default/modlitwa-wieczorna.html.twig');
+    }
 
     /*
      * A
