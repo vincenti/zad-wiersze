@@ -149,9 +149,13 @@ public function cudAction()
      * Y
      */
 
-    /*
-     * Z
-     */
+    /**
+    * @Route("/zasypiamy_na_slowach.html", name="zasypiamy_na_slowach")
+    */
+    public function zasypiamynaslowachAction()
+    {
+        return $this->render('default/zasypiamy_na_slowach.html.twig');
+    }
     
     /**
      * @Route("/dom-marzen.html", name="dom-marzen")
