@@ -66,7 +66,13 @@ public function cudAction()
     /*
      * G
      */
-
+/**
+ * @Route("/game-over.html", name="game-over")
+ */
+public function gameoverAction()
+{
+    return $this->render('default/game-over.html.twig');
+}
     /*
      * H
      */
