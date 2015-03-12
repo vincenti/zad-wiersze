@@ -129,6 +129,14 @@ public function cudAction()
      * T
      */
 
+    /**
+     * @Route("/testament-moj.html", name="testament-moj")
+     */
+    public function  testamentMojAction()
+    {
+        return $this->render('default/testament-moj.html.twig');
+    }
+
     /*
      * U
      */
