@@ -194,4 +194,11 @@ public function hymnAction()
         return $this->render('default/wiersz-o-chlopcu-polskim.html.twig');
     }
 
+    /**
+     * @Route("/deszcz-jesienny.html", name="dzeszcz-jesienny")
+     */
+    public function  deszczJesiennyAction()
+    {
+       return $this->render('default/deszcz-jesienny.html.twig');
+    }
 }
