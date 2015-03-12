@@ -76,6 +76,13 @@ public function gameoverAction()
     /*
      * H
      */
+/**
+ * @Route("/hymn.html", name="hymn")
+ */
+public function hymnAction()
+{
+    return $this->render('default/hymn.html.twig');
+}
 
     /*
      * I
