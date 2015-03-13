@@ -62,6 +62,13 @@ public function cudAction()
     /*
      * F
      */
+    /**
+     * @Route("/w-ogrodzie.html", name="w-ogrodzie")
+    */
+    public function  wOgrodzieAction()
+    {
+    return $this->render('default/w-ogrodzie.html.twig');
+    }
 
     /*
      * G
