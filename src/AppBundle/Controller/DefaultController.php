@@ -69,6 +69,13 @@ public function cudAction()
     {
     return $this->render('default/w-ogrodzie.html.twig');
     }
+    /**
+     * @Route("/list-do-syna.html", name="list-do-syna")
+    */
+    public function  listdoSynaAction()
+    {
+    return $this->render('default/list-do-syna.html.twig');
+    }
 
     /*
      * G
