@@ -114,6 +114,14 @@ public function hymnAction()
      * L
      */
 
+     /**
+     * @Route("/w-weronie.html", name="w-weronie")
+     */
+     public function wweronieAction()
+     {
+        return $this->render('default/w-weronie.html.twig');
+     }
+
     /*
      * M
      */
