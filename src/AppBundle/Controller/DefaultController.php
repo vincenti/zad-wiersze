@@ -202,6 +202,15 @@ public function hymnAction()
      * V
      */
 
+    /**
+     * @Route("/z-glowa-na-karabinie.html", name="z-glowa-na-karabinie")
+     */
+    public function zGlowaNaKarabinieAction()
+    {
+        return $this->render('default/z-glowa-na-karabinie.html.twig');
+    }
+
+
     /*
      * W
      */
