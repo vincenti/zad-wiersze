@@ -137,6 +137,14 @@ public function hymnAction()
      * N
      */
 
+    /**
+     * @Route("/kara-smierci.html", name="kara-smierci")
+     */
+    public function karaSmierciAction()
+    {
+        return $this->render('default/kara-smierci.html.twig');
+    }
+
     /*
      * O
      */
