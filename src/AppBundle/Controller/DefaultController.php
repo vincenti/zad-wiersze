@@ -172,6 +172,21 @@ public function hymnAction()
      * S
      */
 
+    /**
+     * @Route("/ginsberg.html", name="ginsberg")
+     */
+    public function ginsbergAction()
+    {
+        return $this->render('default/ginsberg.html.twig');
+    }
+
+    /**
+     * @Route("/poswiatowska.html", name="poswiatowska")
+     */
+    public function poswiatowskaAction()
+    {
+        return $this->render('default/poswiatowska.html.twig');
+    }
 
     /**
      * @Route("/stepy-akermanskie.html", name="stepy-akermanskie")
