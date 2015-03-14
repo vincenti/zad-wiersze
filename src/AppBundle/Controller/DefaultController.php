@@ -134,6 +134,14 @@ public function hymnAction()
      * O
      */
 
+     /**
+     * @Route("/swiat.html", name="swiat")
+     */
+     public function swiatAction()
+     {
+       return $this->render('default/swiat.html.twig');
+     }
+
     /*
      * P
      */
