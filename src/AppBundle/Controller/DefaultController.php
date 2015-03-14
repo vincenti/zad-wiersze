@@ -39,6 +39,13 @@ class DefaultController extends Controller
     /*
      * B
      */
+        /**
+    *@Route("/poemat-lublin.html", name="poemat-lublin")
+    */
+    public function poematLublinAction()
+    {
+    return $this->render('default/poemat-lublin.html.twig');
+    }
 
     /*
      * C
