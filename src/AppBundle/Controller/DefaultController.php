@@ -173,6 +173,14 @@ public function hymnAction()
      */
 
     /**
+     * @Route("/ginsberg.html", name="ginsberg")
+     */
+    public function ginsbergAction()
+    {
+        return $this->render('default/ginsberg.html.twig');
+    }
+
+    /**
      * @Route("/poswiatowska.html", name="poswiatowska")
      */
     public function poswiatowskaAction()
