@@ -132,6 +132,14 @@ public function hymnAction()
     /*
      * M
      */
+     
+     /**
+     * @Route("/pielgrzym.html", name="pielgrzym")
+     */
+    public function pielgrzymAction()
+    {
+        return $this->render('default/pielgrzym.html.twig');
+    }
 
     /*
      * N
