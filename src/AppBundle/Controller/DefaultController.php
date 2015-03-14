@@ -137,6 +137,13 @@ public function hymnAction()
     /*
      * R
      */
+   /**
+     * @Route("/rzepka.html", name="rzepka")
+     */
+    public function rzepkaAction()
+    {
+        return $this->render('default/rzepka.html.twig');
+    }
 
     /*
      * S
