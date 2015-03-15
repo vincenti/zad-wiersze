@@ -180,7 +180,13 @@ public function hymnAction()
     /*
      * Q
      */
-
+    /**
+     * @Route("/jedzie-pociag.html", name="jedzie-pociag")
+     */
+     public function jedziePociagAction()
+     {
+       return $this->render('default/jedzie-pociag.html.twig');
+     }
     /*
      * R
      */
