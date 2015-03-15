@@ -260,4 +260,12 @@ public function hymnAction()
     {
        return $this->render('default/deszcz-jesienny.html.twig');
     }
+    
+    /**
+     * @Route("/do-laury.html", name="do-laury")
+     */
+    public function  doLauryAction()
+    {
+       return $this->render('default/do-laury.html.twig');
+    }
 }
