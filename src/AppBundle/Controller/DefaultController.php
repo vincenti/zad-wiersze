@@ -257,7 +257,15 @@ public function hymnAction()
     /*
      * U
      */
-
+    
+     /**
+     * @Route("/alegoria.html", name="alegoria")
+     */
+    public function  alegoriaAction()
+    {
+        return $this->render('default/alegoria.html.twig');
+    }
+    
     /*
      * V
      */
