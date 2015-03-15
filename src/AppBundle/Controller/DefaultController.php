@@ -62,6 +62,14 @@ public function cudAction()
      * D
      */
 
+    /**
+     * @Route("/drzewa.html", name="drzewa")
+    */
+    public function  drzewaAction()
+    {
+    return $this->render('default/drzewa.html.twig');
+    }
+    
     /*
      * E
      */
