@@ -122,6 +122,14 @@ public function hymnAction()
      */
 
      /**
+     * @Route("/ocean.html", name="ocean")
+     */
+     public function oceanAction()
+     {
+        return $this->render('default/ocean.html.twig');
+     }
+
+     /**
      * @Route("/w-weronie.html", name="w-weronie")
      */
      public function wweronieAction()
