@@ -152,6 +152,13 @@ public function hymnAction()
     /*
      * P
      */
+     /**
+     * @Route("/poczekaj.html", name="poczekaj")
+     */
+    public function poczekajAction()
+    {
+        return $this->render('default/poczekaj.html.twig');
+    }
 
     /*
      * Q
