@@ -267,7 +267,16 @@ public function hymnAction()
     /*
      * W
      */
-
+    
+    
+    /**
+    * @Route("/wilczek.html", name="wilczek")
+    */
+    public function wilczekAction()
+    {
+        return $this->render('default/wilczek.html.twig');
+    }
+    
     /*
      * X
      */
