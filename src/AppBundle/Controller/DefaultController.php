@@ -172,6 +172,16 @@ public function hymnAction()
     /*
      * O
      */
+     /**
+     * @Route("/Oprzyjdz.html", name="Oprzyjdz")
+     */
+     public function OprzyjdzAction()
+     {
+       return $this->render('default/Oprzyjdz.html.twig');
+     }
+
+    
+    
 
      /**
      * @Route("/swiat.html", name="swiat")
