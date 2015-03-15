@@ -125,6 +125,13 @@ public function hymnAction()
      * K
      */
 
+     /**
+     * @Route("/carpe-diem.html", name="carpe-diem")
+     */
+    public function carpeDiemAction()
+    {
+        return $this->render('default/carpe-diem.html.twig');
+    }
     /*
      * L
      */
