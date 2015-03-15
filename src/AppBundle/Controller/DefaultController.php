@@ -261,6 +261,13 @@ public function hymnAction()
     /*
      * V
      */
+    /**
+    * @Route("/do-matki.html", name="do-matki")
+    */
+    public function DoMatkiAction()
+    {
+        return $this->render('default/do-matki.html.twig');
+    }
 
     /**
      * @Route("/z-glowa-na-karabinie.html", name="z-glowa-na-karabinie")
