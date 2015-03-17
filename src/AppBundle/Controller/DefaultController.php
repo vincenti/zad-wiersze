@@ -338,4 +338,12 @@ public function hymnAction()
     {
        return $this->render('default/do-laury.html.twig');
     }
+    
+    /**
+     * @Route("/rozum-i-wiara.html", name="rozum-i-wiara")
+     */
+    public function rozumiwiaraAction()
+    {
+        return $this->render('default/rozum-i-wiara.html.twig');
+    }
 }
