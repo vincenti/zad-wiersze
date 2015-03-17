@@ -144,6 +144,13 @@ public function mlodelatadychlatAction()
 {
     return $this->render('default/mlode-lata.html.twig');
 }
+/**
+ * @Route("/podroz-dunajcem.html", name="z-podrozy-dunajcem")
+ */
+public function podrozdunajcemAction()
+{
+    return $this->render('default/podroz-dunajcem.html.twig');
+}
 
     /*
      * J
