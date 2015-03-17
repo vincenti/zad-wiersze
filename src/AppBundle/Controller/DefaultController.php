@@ -42,7 +42,13 @@ class DefaultController extends Controller
     /*
      * A
      */
-
+     /**
+     * @Route("/pawel-i-gawel.html", name="pawel-i-gawel")
+    */
+    public function pawelIGawelAction()
+    {
+    return $this->render('default/pawel-i-gawel.html.twig');
+    }
     /*
      * B
      */
