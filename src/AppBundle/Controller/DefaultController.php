@@ -136,6 +136,14 @@ public function hymnAction()
     /*
      * I
      */
+     
+/**
+ * @Route("/mlode-lata.html", name="za-moich-mlodych-lat")
+ */
+public function mlodelatadychlatAction()
+{
+    return $this->render('default/mlode-lata.html.twig');
+}
 
     /*
      * J
