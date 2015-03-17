@@ -31,6 +31,13 @@ class DefaultController extends Controller
     {
     return $this->render('default/modlitwa-wieczorna.html.twig');
     }
+    /**
+     * @Route("/zla-kolysanka.html", name="zla-kolysanka")
+    */
+    public function zlaKolysankaAction()
+    {
+    return $this->render('default/zla-kolysanka.html.twig');
+    }
 
     /*
      * A
