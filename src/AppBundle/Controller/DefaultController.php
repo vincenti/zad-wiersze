@@ -86,6 +86,13 @@ public function cudAction()
     /*
      * E
      */
+    /**
+    * @Route("/et-arceo.html", name="et-arceo")
+    */
+    public function EtArceoAction()
+    {
+        return $this->render('default/et-arceo.html.twig');
+    }
 
     /*
      * F
