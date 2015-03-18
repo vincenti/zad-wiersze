@@ -38,6 +38,14 @@ class DefaultController extends Controller
     {
     return $this->render('default/zla-kolysanka.html.twig');
     }
+    
+     /**
+     * @Route("/katar.html", name="katar")
+     */
+    public function katarAction()
+    {
+        return $this->render('default/katar.html.twig');
+    }
 
     /*
      * A
