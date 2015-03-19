@@ -204,6 +204,20 @@ public function podrozdunajcemAction()
     /*
      * M
      */
+    /**
+     * @Route("/moja-piosnka.html", name="moja-piosnka")
+    */
+    public function mojaPiosnkaAction()
+    {
+    return $this->render('default/moja-piosnka.html.twig');
+    }
+    /**
+     * @Route("/moja-pieszczotka.html", name="moja-pieszczotka")
+    */
+    public function mojaPieszczotkaAction()
+    {
+    return $this->render('default/moja-pieszczotka.html.twig');
+    }
      
      /**
      * @Route("/pielgrzym.html", name="pielgrzym")
