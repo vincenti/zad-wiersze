@@ -101,6 +101,13 @@ public function cudAction()
         return $this->render('default/et-arceo.html.twig');
     }
 
+    /**
+    * @Route("/elegia.html", name="Elegia-o-chlopcu-polskim")
+    */
+    public function elegiaAction()
+    {
+        return $this->render('default/elegia.html.twig');
+    }
     /*
      * F
      */
