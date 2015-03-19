@@ -49,6 +49,13 @@ class DefaultController extends Controller
     {
     return $this->render('default/pawel-i-gawel.html.twig');
     }
+    /**
+     * @Route("/marsz.html", name="marsz")
+     */
+    public function marszAction()
+    {
+        return $this->render('default/marsz.html.twig');
+    }
     /*
      * B
      */
